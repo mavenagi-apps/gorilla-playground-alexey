@@ -19,6 +19,8 @@ export const installSampleAction = async (client: MavenAGIClient) => {
   });
 };
 
+// Commented to test deploy, remove me.
+
 export const runSampleAction = async ({}: { parameters: Record<string, string> }) => {
   try {
     const filePath = path.join(process.cwd(), 'src', 'data', 'amendments.json');
